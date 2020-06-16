@@ -1,0 +1,15 @@
+html {
+    box-sizing: inherit;
+}
+section {
+    border: 1.5px dashed darkcyan;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+p {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid blue;
+}

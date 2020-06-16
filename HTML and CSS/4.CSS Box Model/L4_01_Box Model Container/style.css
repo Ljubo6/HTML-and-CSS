@@ -1,0 +1,12 @@
+body p {
+    border: 5px solid #000;
+    width: 200px;
+    border-radius: 0.5em;
+    background: rgb(64, 224, 208);
+    
+    padding: 1.5em;
+    margin: auto;
+}
+.site {
+
+}

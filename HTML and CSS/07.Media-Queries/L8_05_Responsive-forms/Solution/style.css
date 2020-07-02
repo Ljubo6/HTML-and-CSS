@@ -1,0 +1,67 @@
+@import url(https://use.fontawesome.com/releases/v5.10.1/css/all.css);
+
+html{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 2em;
+}
+
+form{
+    width: 20em;
+    
+}
+
+legend{
+    padding: 0.2em 3em 0.2em 1em;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin-bottom: 1em;
+    background-color: lightgray;
+}
+
+fieldset{
+    padding-left: 1em;
+    background-color: lightgray;
+}
+
+label, input{
+    margin: 0.5em 0.5em 0em 0.5em; 
+    font-weight: bold;
+}
+
+#username, #password{
+    text-align: left;
+    margin-left: 0;
+}
+
+
+.button{
+    padding-top: none;
+    margin-bottom: 2em;
+    background-color: rgb(66, 65, 65);
+    padding: 0.3em 0.7em;
+    color: white;
+    border: none;
+    border-radius: 5%;
+} 
+
+.input-icons i { 
+    position: absolute; 
+} 
+
+@media (max-width: 500px){
+    form{
+        width: 16em;
+    }
+}

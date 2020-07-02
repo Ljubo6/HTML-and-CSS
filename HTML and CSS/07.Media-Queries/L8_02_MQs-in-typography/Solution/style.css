@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font: 16px/1.5 , Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(238,238,238);
+}
+.page-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header .site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+h1, h2 {
+    font-weight: normal;
+}
+
+.after-title {
+    border-color: solid black;
+}
+.first-picture {
+    float: right;
+    margin-left: 20px;
+    border: 2px solid black;
+    padding: 10pz;
+}
+h2 {
+    clear: both;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid rgb(221, 221, 221);
+    margin: 0;
+    padding-left: 40px;
+    color: rgb(68,68,68);
+    float: right;
+    width: 50%;
+}
+blockquote p {
+    margin-top: 0;
+}
+blockquote footer{
+    text-align: right;
+}
+.half-paragraph {
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+    margin-top: 0px;
+}
+.clearFloatingTwo {
+    clear: both;
+}
+
+.second-picture {
+    float: left;
+    margin-right: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    color: white;
+}
+
+@media screen and (min-width: 499px) {
+    body {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1800px) {
+    body {
+        font-size: 23px;
+    }
+}
+@media screen and (min-width: 1300px) {
+    body {
+        font-size: 21px;
+    }
+}
+@media screen and (min-width: 800px) {
+    body {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+}

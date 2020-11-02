@@ -1,0 +1,9 @@
+@import url('https://www.fontmirror.com/helvetica');
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+section{
+    padding: 80px;
+}

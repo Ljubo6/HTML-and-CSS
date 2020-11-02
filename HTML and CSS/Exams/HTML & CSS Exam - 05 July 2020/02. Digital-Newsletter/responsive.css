@@ -1,0 +1,22 @@
+/* TODO: Add media queries */
+@media all and (max-width: 884px){
+    main header{
+        padding: 0;
+    }
+    .newsletter-boxes{
+        display: block;
+        
+    }
+    .newsletter-boxes article{
+        margin-bottom: 40px;
+    }
+    .newsletter-bottom{
+        display: flex;
+    }
+    .newsletter-bottom-content{
+        text-align: left;
+    }
+    .bottom-logo{
+        width: 20%;
+    }
+}

@@ -1,0 +1,54 @@
+html,body{
+    height: 100%;
+}
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    width: 100px;
+    height: 300px;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+}
+.first-pic{
+    background: url('../Requirements-and-Resources/images/Image1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.second-pic{
+    /* background: url('../Requirements-and-Resources/images/Image2.jpg');
+    background-position: center;
+    background-size: cover; */
+    background-color: black;
+    border-left: 15px solid black;
+    border-right: 15px solid black;
+    flex-grow: 2;
+}
+.second-pic img{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.third-pic{
+    background: url('../Requirements-and-Resources/images/Image3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.forth-pic{
+    background: url('../Requirements-and-Resources/images/Image4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+

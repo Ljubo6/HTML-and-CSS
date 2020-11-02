@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+/* @import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css'); */
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+body{
+    margin: 0;
+    font: 16px/1.5 'Gelasio', serif;
+    background-image: url('./Media//background.jpg');
+    background-size: cover;
+}
+.site-header{
+    background-color: #E6E3DE;
+}
+.site{  
+    display: flex;
+    color:#554938;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    margin: 0 auto;
+}
+.site nav{
+    width: 25%;
+}
+.site-navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.site-navigation li{
+    list-style: none;
+}
+.site-navigation li a{
+    text-decoration: none;
+    color:#554938;
+}
+.site-search button{
+    margin-right: 20px;
+    background-color: #554938;
+    border: none;
+    outline: none;
+    padding: 5px 13px;
+
+}
+.site-search button:hover,.site-search:hover,.site-navigation li:hover{
+    cursor: pointer;
+}
+header{
+    background-image: url('./Media/craving.jpg');
+    background-size: cover;
+    text-align: center;
+}
+.site-craving{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    color: white;
+}
+.site-craving i{
+
+  color: #554938;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 7px;
+
+}
+.site-craving p{
+    width: 31%;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.795);
+    margin-top: 0;
+
+}
+.wrapper{
+    width: 90%;
+    margin: auto;
+    padding: 40px 0 ;
+
+}
+.party-image-wrapper{
+    width: 50%;
+}
+
+.party{
+    display: flex;
+    margin-bottom: 30px;
+}
+.party-image-wrapper{
+    width: 60%;
+}
+.party-content{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E6E3DE;
+}
+.party-content h2, .party-content p{
+    margin: 0;
+}
+.party-content p{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.party-content button{
+    background-color: #554938;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    margin-top: 20px;
+}
+.party-image-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+
+.tutorial{
+    display: flex;
+    margin-bottom: 30px;
+}
+.tutorial-content h2, .tutorial-content p{
+    margin: 0;
+}
+.tutorial-content h2{
+    font-size: 27px;
+    width: 90%;
+}
+.tutorial-image-wrapper{
+    width: 60%;
+}
+.tutorial-content p{
+    width: 93%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tutorial-content{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E6E3DE;
+}
+
+.tutorial-image-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+.toolbox{
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.toolbox > p{
+    width: 20%;
+    background-color:  rgba(230, 227, 222,.8);;
+}
+.toolbox button{
+    width: 20%;
+    padding: 6px 0;
+    border: none;
+    outline: none;
+    background-color: #DC4F36;
+}
+.toolbox article{
+    background-color: #E6E3DE;
+}
+.toolbox ul{
+    display: flex;
+    justify-content: space-around;
+}
+.toolbox ul li{
+    width: 15%;
+    list-style: none;
+    background-color: rgba(230, 227, 222,.8);
+    text-align: center;
+}
+.toolbox ul li p{
+    margin: 0;
+}
+.toolbox li img{
+    width: 100%;
+    height: 80%;
+}
+footer{
+    background-color: rgba(230, 227, 222,.8);
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    /* padding: 0 30px; */
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    width: 27%;
+    justify-content: space-around;
+}
+
+footer li:after{
+    content: "|";
+    position: relative;
+    right: -5px;
+}
+footer li:last-child:after {
+    content: " ";
+}

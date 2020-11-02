@@ -1,0 +1,21 @@
+/* TODO: Add media queries */
+@media all and (max-width: 600px){
+    .thumbnails{
+        display: block;
+    }
+    .thumbnails > div{
+        
+        width: 100%;
+        
+    }
+    .thumbnails a img{
+        max-height: 200px;
+        object-fit:cover;
+    }
+
+    .thumbnails > div > :last-child {
+        margin-bottom: 2em;
+      }
+
+    
+}

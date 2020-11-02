@@ -1,0 +1,21 @@
+
+body, ul, li {
+    display: flex;
+}
+body{
+    background-color: #EEEEEE;
+}
+ul{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+li{
+    border: 0.5em solid black;
+    align-items: center;
+    margin: 2em;
+    background-color: white;
+}
+img{
+    padding: 1em;
+}
+

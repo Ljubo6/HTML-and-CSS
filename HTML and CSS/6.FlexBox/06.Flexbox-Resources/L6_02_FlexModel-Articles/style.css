@@ -1,0 +1,18 @@
+body{
+    font: 16px/1.5 'Helvetica', sans-serif;
+}
+section{
+    max-width: 70vw;
+    display: flex;
+    margin: 130px auto;
+    justify-content: space-between;
+}
+h2{
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+    font-size: 30px;
+}
+article{
+    flex-basis: 25%;
+}

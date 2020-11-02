@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(238, 238, 238);
+    width: 65%;
+    margin: 0 auto;
+    
+}
+.cards-layout{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+.masonry{
+    flex-direction: column;
+    height: 270vh;
+}
+.flex article{
+    margin-right: 20px;
+}
+article{
+
+     width: 30%;
+     border: 1px solid #CBCBCB;
+     margin-bottom: 20px;
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+     border-radius: 10px;
+     overflow: hidden;
+}
+article img{
+    width: 100%;
+}
+.masonry article:nth-child(3){
+    margin-bottom: 0;
+}
+.head-two{
+    margin-top: 0;
+}
+p{
+    padding: 12px;
+}
+footer{
+    border-top: 1px solid black;
+    padding: 12px;
+}
+article p:nth-of-type(2){
+    flex-grow: 2;
+}

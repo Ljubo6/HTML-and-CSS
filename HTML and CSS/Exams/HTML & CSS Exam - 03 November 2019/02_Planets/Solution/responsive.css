@@ -1,0 +1,29 @@
+@media all and (max-width:1000px){
+    .pair{
+        display: block;
+    }
+    .planet{
+        width: 100%;
+    }
+    footer nav{
+        flex-direction: column;
+    }
+    .primary footer nav a:nth-child(even){
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+    }
+}
+@media all and (max-width: 850px){
+    .news ul{
+        display: block;
+        
+    }
+    .news ul li{
+        text-align: center;
+
+    }
+    .news ul li img {
+        width: 360px;
+        height: 270px;
+    }
+}

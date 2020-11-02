@@ -1,0 +1,19 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    padding: 120px;
+    background-color: #EEEEEE;
+}
+li{
+    display: inline-block;
+    width: 28%;
+    border: 0.4rem solid black;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    vertical-align: middle;
+}
+img{
+    width: 100%;
+}

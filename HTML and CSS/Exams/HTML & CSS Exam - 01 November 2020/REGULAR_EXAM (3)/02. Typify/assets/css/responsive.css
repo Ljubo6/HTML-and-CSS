@@ -1,0 +1,32 @@
+@media all and (max-width: 600px){
+    .banner h2{
+        width: 90%;
+        font-size: 2em;
+    }
+
+    .banner .button.special{
+        display: block;
+        
+    }
+    ul.actions li:last-child{
+
+        width: 90%;
+        align-content: center;
+        
+    }
+    .features{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        
+    }
+    .feature{
+        width: 30%;
+    }
+    .wrapper > .inner{
+        margin: 0;
+    }
+    header h2{
+        display: block;
+    }
+
+}

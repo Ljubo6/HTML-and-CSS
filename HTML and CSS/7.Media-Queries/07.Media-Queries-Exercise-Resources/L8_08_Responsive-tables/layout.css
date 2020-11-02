@@ -1,0 +1,6 @@
+@media (max-width:500px) {
+    table * {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+html{
+    box-sizing: border-box;
+    background-color: #F0E4E4;
+}
+*,
+*:after,
+*:before{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    font: 16px/1.5 'Noto Sans JP', sans-serif;
+}
+header{
+    background-color: #F93700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    width: 40%;
+}
+header nav ul{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.search{
+    width: 20%;
+    background-color: #B6AFAF;
+    padding: 0 0 2px 2px;
+
+}
+input[type=text]{
+    outline: none;
+    border: none;
+    width: 90%;
+    padding: 5px;
+    
+}
+.account{
+    width: 15%;
+    text-align: right;
+    padding-right: 40px;
+}
+.account i{
+    margin-right: 5px;
+    color: white;
+}
+.account button{
+    color: white;
+    border: none;
+    outline:  none;
+    background-color: transparent;
+    font-size: 16px;
+}
+.rooms ul{
+    padding-left: 0;
+    width: 88%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rooms ul li {
+    text-align: center;
+    list-style: none;
+}
+.rooms ul li p{
+    margin: 0;
+    padding: 5px;
+    color: #AFB1BA;
+}
+.rooms-img-wrapper{
+    width: 270px;
+    height: 270px;
+}
+.rooms-img-wrapper img{
+    width: 270px;
+    height: 270px;
+}
+.collection{
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.collection-img-wrapper img{
+    width: 800px;
+    height: 400px;
+}
+.description{
+    margin-top: 30px;
+}
+.description h2{
+    font-size: 34px;
+    font-weight: 500;
+    color: #F93700;
+}
+.description p{
+    color: #AFB1BA;
+}
+.description button{
+    background-color:  #F93700;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.advantageous{
+    width: 88%;
+    margin: 40px auto;
+    background-color: #CAC3C3;
+}
+.advantageous ul{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.advantageous-wrapper{
+    background-color: #E6D6D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    text-align: center;
+}
+.advantageous-wrapper img{
+    width: 80%;
+}
+.advantageous ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+}
+.advantageous ul li p, .advantageous ul li h4{
+    margin: 0;
+    
+}
+.advantageous ul li p{
+    margin-bottom: 30px;
+    color: #787270;
+    
+}
+.advantageous ul li h4{
+    color: #554542;
+}
+footer{
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+footer nav {
+    color: #AFB1BA;
+    
+    width: 44%;
+}
+.first{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 0;
+}
+.second button{
+    padding: 5px 50px;
+    background-color: #CAC3C3;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+.first li, .second li{
+    list-style: none;
+}
+footer nav ul li:first-child{
+    font-weight: bold;
+}
+footer nav ul li i{
+    font-size: 30px;
+}

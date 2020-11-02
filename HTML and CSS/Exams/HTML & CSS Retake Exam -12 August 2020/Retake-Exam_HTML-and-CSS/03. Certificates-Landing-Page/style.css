@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+html{
+    box-sizing: border-box;
+}
+*:after,*:before{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background: linear-gradient(rgba(204, 197, 197, 0.8), rgba(247, 243, 243, 0.9)),url('./images/hero-certificates.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    width: 93%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 10px 8px 0px rgba(168,162,161,1);
+   
+}
+.logo-wrapper{
+    width: 100px;
+    margin-left: 20px;
+    padding: 20px;
+
+}
+.logo-wrapper img{
+    width: 100%;
+}
+
+.header nav ul {
+    display: flex;
+    width: 470px;
+    margin-left: 500px;
+    margin-top: 0;
+    justify-content: space-between;
+
+}
+.header nav ul li{
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.header nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+}
+.header nav ul li:hover{
+
+    border-top: 4px solid  transparent;
+}
+.header nav ul li.select:hover{
+    border-top: 4px solid  #41AAF6;
+}
+.header button{
+
+    background-color: #41AAF6;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: white;
+    margin-right: 20px;
+
+}
+.header-main{
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px  20px 50px;
+    margin-top: 20px;
+
+}
+.description{
+    flex-basis: 50%;
+}
+.benefits{
+    
+    background-color: #29384B;
+    border-radius: 15px;
+    align-items: center;
+    padding: 20px;
+    color: #C6CFD5;
+    text-align: left;
+    box-shadow: 0px 0px 20px 0px rgb(73, 71, 70);
+}
+.diploms .first-diplom{
+    position: relative;
+    bottom: -25px;
+    right: -60px;
+}
+.diploms .second-diplom{
+    position: relative;
+    right: -56px;
+    bottom: -25px;
+
+}
+.diploms{
+    flex-basis: 40%;
+    text-align: center;
+}
+.notes{
+    font-size: 14px;
+    font-style: italic;
+    padding-top: 10px;
+    color: #808388;
+}
+h1,h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+.section-main{
+    width: 90%;
+    margin: 50px auto;
+    color: #676F7E;
+}
+.info{
+    background-color: #F4F5F7;
+    padding: 20px;
+    margin-top: 30px;
+
+    
+}
+.diplom h1{
+    text-align: center;
+}
+.container{
+    background: linear-gradient(rgba(94, 92, 92, 0.329), rgba(0,0,0, .4)),url('./images/sign-up-prompt-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px;
+    padding-top: 40px;
+    box-shadow: 0px 0px 11px 0px rgba(168,162,161,1);
+    color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.container p{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.container h1{
+    margin-top: 0;
+}
+.btn{
+    outline: none;
+    
+    border-radius: 8px;
+}
+.apply{
+    background-color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+    color: #84BDE6;
+    margin-right: 21px;
+}
+.curriculum{
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid  #BBC1C9;
+    color: #BBC1C9;
+    margin-left: 20px;
+}
+.apply:after{
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 25px;
+    background-color:   #BBC1C9;
+    position: absolute;
+    right: 707px;
+    top: 1196px;
+}
+footer{
+    width: 90%;
+    margin: 0 auto;
+    border-top: 2px solid #C0C0C0;
+    padding:25px 0;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.section-footer{
+    display: flex;
+    align-items: center;
+    width: 21%;
+    justify-content: space-between;
+}
+.section-footer p{
+    font-size: 10px;
+    color:#E2E2E2;
+}
+.logo-footer-wrapper{
+    width: 100px;
+}
+.footer-nav nav ul{
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+}
+.footer-nav nav ul li{
+    list-style: none;
+    color: #808388;
+    font-size: 14px;
+}

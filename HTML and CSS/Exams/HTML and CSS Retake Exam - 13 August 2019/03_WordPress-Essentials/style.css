@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.header-top{
+    background-color: #234465;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: #FFA000;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+}
+.logo .btn-logo{
+    margin-left: 20px;
+    padding: 5px 10px;
+
+}
+.logo-wrapper{
+    width: 30%;
+}
+
+
+
+.navigation{
+    margin-right: 100px;
+    width: 29%;
+}
+.navigation nav ul{
+    list-style: none;
+}
+.navigation nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation nav ul li {
+    color: #91A1B2;
+}
+.navigation nav ul li button, .navigation nav ul li i{
+    margin-left: 10px;
+}
+.btn-nav{
+    padding: 5px 10px;
+}
+
+
+
+
+.header-middle{
+    padding: 25px 0;
+}
+.header-middle p{
+    display: inline;
+    margin-right: 20px;
+    
+}
+.header-middle{
+    padding-left: 80px;
+}
+.software-engineering{
+    color: #DFA72B;
+}
+.open-courses{
+    color: #234465;
+    font-weight: 600;
+}
+
+
+
+.header-bottom{
+    text-align: center;
+    background-color:rgba(148, 136, 125,.6);
+    color: white;
+}
+.header-bottom h1{
+    margin-top: 0;
+    padding-top: 40px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.header-bottom ul{
+    list-style: none;
+    padding-left: 0;
+}
+.time{
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+}
+.time i {
+    font-size: 26px;
+    margin-right: 5px;
+}
+.btn-header-bottom{
+    margin: 40px;
+    padding: 10px 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main{
+    position: relative;
+}
+
+.for-course{
+    width: 90%;
+    margin: 40px auto;
+    background-color: #F2F2F2;
+}
+.for-course:before{
+    content: url(./Requirements-and-Resources/images/wordpress.png);
+    display: block;
+    position: absolute;
+    left: -300px;
+    top: -200px;
+    z-index: -1;
+}
+.course-wrapper{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.course-wrapper p{
+    padding:0 50px;
+    color: #5F4465;
+}
+.course-wrapper span{
+    color: #224161;
+    font-weight: 900;
+}
+.course-wrapper button{
+    margin: 40px;
+    padding: 10px 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.course-wrapper h1{
+    border-bottom: 4px solid  #FFA000;
+}
+
+
+.benefits{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+.benefits h1{
+    padding-top: 10px;
+    text-align: center;
+    color: #234465;
+}
+.benefits p{
+    color: #6B647A;
+}
+.benefits h1::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 410px;
+    background-color: #FFA000;
+    position: relative;
+    right: -400px;
+
+}
+.scils {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+
+}
+.scils p{
+    width: 45%;
+    padding-left: 70px;
+}
+.scils i {
+    padding-right: 7px;
+    color: #FFA000;
+}
+
+
+
+
+
+.tems{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.tems h1{
+    
+    padding-top: 10px;
+    color: #234465;
+}
+.tems h1:after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 63px;
+    background-color: #FFA000;
+    position: relative;
+    right: -9px;
+}
+.list-tems{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+.tems p{
+    width: 47%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: #DADADA;
+    padding:3px 10px;
+    display: flex;
+    border-left: 4px solid #234465;
+    font-size: 16px;
+    color: #565656;
+    font-weight: bold;
+}
+
+.left{
+    padding-left: 5px;
+    width: 20px;
+    margin-right: 25px;
+}
+
+
+.course-for{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #FFA000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    color: white;
+}
+.course-for h1{
+    font-size: 27px;
+    text-transform: uppercase;
+}
+.course-for-who{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
+.time-for-candidate{
+    width: 90%;
+    margin: 40px auto;
+    background-color: #F2F2F2;
+    padding:10px 30px;
+
+}
+.time-for-candidate h1{
+    font-size: 18px;
+    color: #FFA000;
+}
+.time-for-candidate p{
+    color: #735A5E;
+}
+
+.start-times span{
+    font-weight: 900;
+    color: #5E6A74;
+
+}
+span.tuk{
+    color: #3E81BA;
+}
+
+
+
+
+
+.up{
+    background-color: #234465;
+    color: white;
+}
+.down{
+    background-color: #FFA000;
+    color: white;
+
+}
+.inside{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+    
+}
+.on-air h1{
+    padding-left: 20px;
+    color: white;
+}
+
+.up, .down{
+    display: flex;
+    justify-content: left;
+}
+.on-air{
+    width: 30%;
+    
+}
+.on-air h1{
+    margin: 3px;
+}
+.description ul{
+    margin: 3px;
+}
+
+
+
+
+
+.lecture{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lecture h1{
+    font-size: 26px;
+    color: #234465;
+    font-weight: bolder;
+}
+.lecture>h1:after{
+    content: "";
+    width: 190px;
+    height: 4px;
+    display: block;
+    background-color:  #FFA000;
+    position: relative;
+    right: -10px;
+}
+.lecture-presentation{
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.lecture-wrapper{
+    width: 10%;
+    
+}
+.lecture-info{
+    width: 85%;
+    margin-left: 40px;
+}
+.lecture-wrapper img{
+    width: 100%;
+    border-radius: 50%;
+}
+.lecture-info p{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #565656;
+}
+.lecture-info span{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #565656;
+}
+.lecture-info h1{
+    font-size: 26px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #234465;
+    font-weight: bolder;
+}
+
+.btn-lecture{
+        margin: 40px;
+    padding: 10px 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer{
+    background-color: #162B40;
+    color: white;
+}
+.footer-info{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-info ul{
+    list-style: none;
+}
+
+
+
+.icons{
+    display: flex;
+    flex-direction: column;
+
+}
+.text{
+    width: 65%;
+    color: #6C7986;
+}
+
+
+.footer-info article  ul{
+    padding-top: 20px;
+}
+.footer-info article ul li{
+    font-size: 14px;
+}
+.footer-info article  ul>li:first-child{
+    margin-bottom: 10px;
+    color:  #FFA000;
+
+}
+.footer-info article  ul .icon:first-child{
+    font-size: 20px;
+    color: white;
+}
+.icon{
+    width: 26%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    color: white;
+}
+
+
+

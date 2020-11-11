@@ -1,0 +1,22 @@
+@media all and (max-width:768px){
+
+    .gallery > *{
+        width: 100%;
+    }
+    .spotlight > * {
+        width: 100%;
+    }
+
+    .wrapper.style2{
+        padding: 1rem;
+    }
+
+    .spotlight .inner{
+        padding: 0;
+        text-align: center;
+    }
+    .wrapper > header h2:after{
+        width: 25%;
+    }
+    
+}

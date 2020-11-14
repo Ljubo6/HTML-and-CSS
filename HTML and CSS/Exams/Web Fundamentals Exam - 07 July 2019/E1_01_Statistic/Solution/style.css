@@ -1,0 +1,56 @@
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+section{
+    width: 90%;
+    margin: 0 auto;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+    background-image: linear-gradient( rgba(30, 30, 175, 0.5),  rgba(69, 67, 102, 0.7)) ,url('../Requirements-and-Resources/images/image.jpg');
+    background-size: cover;
+}
+
+.main{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+i{
+    font-size: 50px;
+    color: #EC8421;
+}
+.label{
+    margin-top: 0;
+}
+.dimention{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+
+}
+article:last-of-type {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.fa-times{
+    font-size: 30px;
+    color: white;
+    margin-top: 5px;
+    margin-right: 15px;
+    text-align: right;
+}
+
+

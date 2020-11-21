@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+    font-family: 'PT Serif', serif;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section{
+    width: 60vw;
+    height: 73vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
+}
+.after-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.after-header p{
+    margin-top: 5px;
+    font-style: italic;
+}
+.vegetable-juice{
+    width: 50%;
+    height: 73vh;
+    padding: 0 30px;
+    background-image: url('../Requirements-and-Resources/image/image1.png');
+    
+}
+.vegetable-juice > p{
+    margin:30px 0;
+}
+.vegetable-juice h1{
+    text-align: center;
+    border-bottom: 3px dotted #488401;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+span{
+    color: #488401 ;
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+th, td{
+    
+    border: 1px solid green;
+    text-align: center;
+    
+}
+
+.wrapper{
+    height: 73vh;
+    background-image: url('../Requirements-and-Resources/image/image.jpg');
+    background-size: cover;
+
+    width: 50%;
+}
+

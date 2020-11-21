@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+    
+}
+
+section{
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid #888686;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #4C4C4C;
+    margin-bottom: 5px;
+}
+.left, .right{
+    width: 50%;
+    height: 76vh;
+
+}
+.left{
+    background-image: url('../Requirements-and-Resources/image/image.png');
+    background-size: cover;
+}
+.right{
+    padding: 0 15px;
+    background-color: #F6F7F8;
+}
+.units{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yelow{
+
+    background-color: #E3DA5D;
+}
+.grey{
+    background-color: #D5D5D4;
+}
+.yelow, .grey{
+    width: 50%;
+    padding: 10px 0px;
+    text-align: center;
+}
+.gender-age, .height-inches{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gender,.height{
+    width: 50%;
+}
+.age, .inches{
+    width: 47%;
+}
+select[name="Gender"]{
+    width: 80%;
+    padding: 4px 0;
+    font-size: 14px;
+    font-style: italic;
+    outline: none;
+    border-color: #A2A9BA;
+    border-radius: 4px;
+    color:  #4C4C4C;
+}
+#text-age,#text-inches, #text-height{
+    width: 96%;
+}
+input[type="text"]{
+    width: 98%;
+    padding: 5px 0;
+    padding-left: 5px;
+    font-size: 14px;
+    font-style: italic;
+    outline: none;
+    border: 1px solid #A2A9BA;
+    border-radius: 4px;
+    color: #4C4C4C;
+}
+form p{
+    margin-bottom: 5px;
+}
+.inches p{
+    color: transparent;
+}
+.btn{
+    width: 100%;
+    margin-top: 25px;
+    padding: 5px 0;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #05A2D3;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}

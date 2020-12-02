@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.site{
+    width: 50%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.75);
+
+}
+
+.left{
+    width: 50%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('./images/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    
+}
+.left header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.left header > p{
+    color: #E2F4FA;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+    padding-left: 30px;
+}
+.first{
+    font-size: 26px;
+    color: #E2F4FA;
+    margin: 0;
+}
+.second{
+    color: white;
+    font-size: 19px;
+    margin: 0;
+}
+
+.right{
+    width: 50%;
+    padding: 30px; 
+    color: #CFCCCF; 
+}
+form input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid  #CFCCCF;
+    color:  #CFCCCF;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+input[type="submit"]{
+    display: inline-block;
+    width: 50%;
+    margin-top: 30px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #111111;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+span{
+    border-bottom: 1px solid  #CFCCCF;
+    font-size: 13px;
+}
+
+i{
+    color: white;
+}

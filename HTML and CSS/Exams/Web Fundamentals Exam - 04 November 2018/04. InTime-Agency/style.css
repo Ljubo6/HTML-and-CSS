@@ -1,0 +1,236 @@
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+
+*{
+    box-sizing: border-box;
+}
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > p{
+    font-size: 26px;
+}
+nav li{
+
+    border-bottom: 3px solid transparent;
+    padding-bottom: 3px;
+
+}
+nav li:first-child{
+    border-bottom: 3px solid  #008CBA;
+}
+header nav ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    color: #008CBA;
+}
+.header-content{
+    background-image: url('./images/slide2.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    
+}
+.content{
+    width: 480px;
+    font-weight: 400;
+    padding: 10px;
+    margin-left: 100px;
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.7));
+    
+}
+.content p{
+    margin: 0;
+    font-size: 40px;
+    color: white;
+}
+.content .btn-header{
+    margin-top: 20px;
+    padding: 5px 23px;
+    font-size: 18px;
+    color: white;
+    background-color: #008CBA;
+    
+}
+.btn{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.site-top{
+    text-align: center;
+    width: 78%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    color: #454545;
+}
+.site-top h1:after{
+    content: "";
+    display: block;
+    width: 93px;
+    height: 3px;
+    background-color: #008CBA;
+    position: relative;
+    left: 480px;
+    top: 5px;
+}
+.btn-main-top{
+    padding: 10px 25px;
+    background-color: #454545;
+    color: white;
+}
+.site-top h1,.site-middle h1{
+    font-size: 26px;
+    font-weight: 300;
+}
+.site-middle h1:after{
+    content: "";
+    display: block;
+    width: 93px;
+    height: 2px;
+    background-color: #454545;
+    position: relative;
+    left: 628px;
+    top: 5px;
+}
+.site-middle{
+    text-align: center;
+    background-color: #EEF0F1;
+    padding: 10px 0 40px 0;
+}
+.inside{
+    width: 85%;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left, .center, .right{
+    width: 32%;
+}
+.image-wrapper img{
+    width: 100%;
+    
+}
+h2{
+    font-weight: normal;
+}
+.btn-site{
+    color: white;
+    padding: 10px 15px;
+    background-color: #454545;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.left, .center, .right{
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.left p, .center p, .right p{
+    padding: 0 30px;
+}
+
+
+.site-bottom{
+    background-color: #393F43;
+    color: white;
+    text-align: center;
+}
+.site-bottom h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+.site-bottom h1:after{
+    content: "";
+    display: block;
+    width: 93px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    left: 628px;
+    top: 5px;
+}
+.site-bottom p{
+    margin: 0;
+}
+label{
+    width: 100%;
+}
+.site-bottom-input{
+    text-align: center;
+}
+input{
+    width: 450px;
+    margin: 20px 0 40px;
+    padding: 10px;
+    background-color: #545A5E;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-radius: 5px;
+}
+.btn-site-bottom{
+    padding: 7px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #64B2EE;
+    border-radius: 5px;
+}
+footer{
+    background-color: #2F3539;
+    color: white;
+}
+footer ul{
+    list-style: none;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+}
+footer h3{
+    font-weight: normal;
+}
+footer ul li{
+    margin-bottom: 10px;
+}
+footer p{
+    text-align: center;
+    background-color: #262B2F;
+    padding: 10px;
+    font-size: 14px;
+}
+
+i{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.address{
+    margin-bottom: 40px;
+}

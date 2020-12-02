@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 99vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.site{
+    width: 70%;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.benefits h1, li{
+    margin-bottom: 15px;
+    color: #E30120;
+    
+}
+ul li:before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0a9";
+    padding-right: 5px;
+}
+
+.first-row, .second-row{
+    display: flex;
+    justify-content: space-between;
+}
+.site{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 72%;
+
+}
+.benefits{
+    width: 30%;
+    padding-left: 30px;
+}
+
+.ticket, .attraction, .misical, .trips{
+    border: 1px solid #808080;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ticket p, .attraction p, .misical p, .trips p{
+    padding-left: 10px;
+    color: #E30120;
+    font-weight: 600;
+}
+.first-row{
+    margin-bottom: 15px;
+}
+
+.benefits h1{
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+.benefits li{
+    font-weight: bold;
+}

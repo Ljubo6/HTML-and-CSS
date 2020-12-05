@@ -1,0 +1,120 @@
+@media all and (max-width:600px){
+    header nav img{
+        float: none;
+        padding-left: 0;
+        width: 90%;
+        margin-top: 0;
+        padding: 30px;
+    }
+    header nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 0;
+        left: 0;
+        position: static;
+        padding: 0;
+    }
+    header nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav p{
+        width: 100%;
+        padding-right: 0;
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+        background-color: #4BBED1;
+    }
+    main section:first-child h1{
+        width: 100%;
+    }
+    main section:first-child div article{
+        display: block;
+        width: 100%;
+    }
+    main section:first-child h1{
+        margin: 40px auto;
+        margin-top: 20px;
+    }
+    main section:first-child div button{
+        margin-bottom: 40px;
+    }
+
+    main section:nth-child(2) article img {
+        width: 90%;
+    }
+    main section:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    main section:nth-child(2) article{
+        width: 100%;
+        padding: 0;
+        margin: 20px 0;
+        /* padding: 0 0 20px 0; */
+    }
+    main section:nth-child(2) article:nth-child(2){
+        position: static;
+        margin: 0;
+        padding-bottom: 20px;
+    
+    }
+    main section:nth-child(2) article div p{
+        padding: 0 20px;
+    }
+
+
+
+
+    footer{
+        margin: 0;
+    }
+    footer nav:nth-child(1) img{
+        width: 90%;
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    footer nav:nth-child(1) ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer nav:nth-child(1) ul li{
+        margin: 10px 0;
+    }
+
+
+    footer #social-nav{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer #social-nav div {
+        display: inline-block;
+        background: white;
+        border-radius: 50%;
+        width: 53px;
+        margin: 25px 15px;
+        height: 53px;
+        text-align: center;
+    }
+
+    footer #social-nav div i{
+        top: 12px;
+        left: 0;
+    }
+}

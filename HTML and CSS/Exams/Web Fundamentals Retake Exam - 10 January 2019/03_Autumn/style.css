@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+
+
+
+*{
+    box-sizing: border-box;
+}
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #72756C;
+}
+section {
+    width: 40%;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+.head{
+    margin: 0;
+    padding-top: 40px;
+}
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+label input{
+    display: inline-block;
+    width: 100%;
+    padding: 12px 0 12px 50px;
+    margin-bottom: 15px;
+    background-color: #F9F9F9;
+    border: 1px solid #E5E5E5;
+    outline: none;
+    border-radius: 3px;
+}
+label:before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+    font-size: 18px;
+    position: relative;
+    top: 33px;
+    left: 12px;
+    border-right: 1px solid #E5E5E5;
+    padding-right: 15px;
+
+}
+label:hover:before{
+    color: red;
+    border-right: 1px solid red;
+}
+input:hover{
+
+    border: 1px solid red;
+}
+.email:before{
+    content: "\f0e0"
+}
+.password:before{
+    content: "\f084";
+}
+.card:before{
+    content: "\f09d";
+}
+span:before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f09d";
+    padding-right: 10px;
+}
+h4{
+    color: #F21D0B;
+}
+.payment{
+    display: flex;
+    margin-bottom: 15px;
+}
+span{
+    display: inline-block;
+    padding: 10px 0;
+    width: 50%;
+    text-align: center;
+    border: 1px solid #E5E5E5;
+    font-size: 14px;
+    background-color: #F9F9F9;
+}
+span:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+.btn{
+    text-align: center;
+}
+button{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 80px;
+    background-color: #F41412;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+}

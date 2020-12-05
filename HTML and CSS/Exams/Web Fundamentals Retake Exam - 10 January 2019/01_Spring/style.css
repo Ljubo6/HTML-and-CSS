@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #67685F;
+    background-image: url('./images/background.png');
+}
+.wrapper{
+    width: 75%;
+    margin: 20px auto;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.wrapper img{
+    width: 100%;
+}
+.head{
+    width: 60%;
+    margin: 40px auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.shop-now{
+    color: #FFDD00;
+}
+.shop-now:before{
+    content: " ---------- ";
+    color: #67685F;
+}
+.shop-now:after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f063";
+    padding-left: 8px;
+}
+section{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+section article{
+    width: 20%;
+    text-align: center;
+    box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+}
+section article p{
+    padding: 10px;
+}
+section article span{
+    color: #8E02AD;
+    display: inline-block;
+    padding: 0px 0 20px 0;
+}
+.image-wrapper img{
+    padding-top: 10px;
+    width: 90%;
+}
+

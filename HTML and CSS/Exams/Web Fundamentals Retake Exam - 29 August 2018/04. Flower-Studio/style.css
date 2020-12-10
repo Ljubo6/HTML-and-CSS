@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+
+*{
+    box-sizing: border-box;
+}
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    color: #5A5A5A;
+}
+
+
+/* HEADER */
+
+.site-head{
+    width: 70%;
+    margin: 0 auto;
+}
+.site-head nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.site-head ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ul-left{
+    width: 50%;
+}
+.ul-right{
+    width: 15%;
+}
+.shop{
+    color: red;
+    
+}
+.shop:after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0d7";
+    padding-left: 5px;
+}
+.site-head-content{
+    background-image: url('./img/residential-banner-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+.head-content{
+    width: 45%;
+    margin: 0px auto;
+    padding-top: 80px;
+    
+}
+.head-content h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+}
+.head-content :nth-child(3){
+    width: 60%;
+    margin: 10px auto;
+}
+.head-content p{
+    font-size: 18px;
+}
+
+/* MAIN */
+.site-main{
+    margin-top: 40px;
+    text-align: center;
+}
+.site-main > h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.site-main-content{
+    width: 60%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    text-align: center;
+}
+.site-main-content article{
+    width: 30%;
+    position: relative;
+}
+.site-main-content article h1{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+}
+.site-main-content article span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    display: inline-block;
+    font-weight: 300;
+}
+.site-main-content article span:before , .site-main-content article span:after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 1px;
+    background-color:  #5A5A5A;
+    position: absolute;
+
+
+}
+.site-main-content article span:before{
+    top: 25px;
+    left: 60px;
+}
+.site-main-content article span:after{
+    top: 25px;
+    right: 60px;
+}
+
+
+.images{
+    background-color: #EDEDED;
+}
+.img{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.wrapper{
+    width: 32%;
+    margin-right: 10px;
+
+}
+.wrapper img{
+    width: 100%;
+
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    background-color: black;
+    font-size: 15px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    margin-bottom: 10px;
+}
+footer p{
+    padding-bottom: 20px;
+}
+.footer-content-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    border-bottom: 1px solid   grey;
+    padding-bottom: 30px;
+}
+.site-footer{
+    width: 65%;
+    margin-left: 150px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.footer-content-center{
+    width: 20%;
+}
+.footer-content-left{
+    width: 40%;
+}
+.footer-content-right{
+    width: 35%;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+.footer-content-right p{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer-content-center ul li img{
+    margin-bottom: 30px;
+}
+.footer-content-center ul li:last-child{
+    display: block;
+    margin: 0 auto;
+}
+.footer-content-center ul li i{
+    color:  #5A5A5A;
+}
+.footer-content-center ul li .fas{
+    color: white;
+}
+input{
+    width: 77%;
+    display:block;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 0;
+    outline: none;
+    border: none;
+}
+
+button{
+    display:block;
+    padding: 10px 5px;
+    background-color: #FA5B3C;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 0;
+}

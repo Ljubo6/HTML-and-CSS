@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color:  #656565;
+    margin: 0;
+}
+section{
+    width: 75%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    
+}
+section article{
+    width: 31%;
+
+}
+.head{
+    border-left: 2px solid #656565;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+.head h1{
+    font-size: 32px;
+    font-weight: 400;
+}
+.head p{
+    font-size: 14px;
+}
+.second{
+    
+    color: transparent;
+    border-left: 1px solid transparent;
+}
+.wrapper{
+    height: 220px;
+    background-image: url('./img/01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+
+}

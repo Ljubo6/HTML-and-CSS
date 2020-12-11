@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+header .site-head{
+    
+    width: 20%;
+    margin: 0 auto;
+}
+header article ul{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header article ul li{
+    color: red;
+}
+
+.monkey-background{
+    background: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.4)) , url('./img/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 180px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.container p{
+    width: 73%;
+    margin: 0 auto;
+}
+.first-container p:before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    position: relative;
+    bottom: 35px;
+    left: 325px;
+    background-color: #EB6447;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    
+}
+.monkey-background h1{
+    font-size: 30px;
+    color: white;
+}
+.monkey-background p{
+    color: #BFC8CF;
+}
+
+
+.find-your-monkey{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB6447;
+    color: white;
+}
+.second-container p:before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    position: relative;
+    bottom: 35px;
+    left: 325px;
+    background-color: white;
+    border: 1px solid #BB7269;
+}
+.second-container{
+    height: 300px;
+}
+.second-container p{
+    width: 53%;
+}
+.find-your-monkey h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #341D27;
+}
+.kind-of-monkey{
+    height: 350px;
+}
+.container-content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.third-container  h1{
+    color: #252C3F;
+}
+.third-container > h1{
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+.third-container > h1:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    position: relative;
+    left: 185px;
+    top: 15px;
+    background-color: #EB6447;
+    border-top: 1px solid #BC7362;
+}
+
+.container-content article{
+    margin: 50px 0;
+    width: 24%;
+}
+.container-content article p{
+    width: 100%;
+    color: #908C93;
+}
+.container-content article h1{
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+.container-content article i{
+    font-size: 50px;
+    color:  #EB6447;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    border-top: 2px solid #EB6447;
+    border-bottom: 2px solid #EB6447;
+}
+.wrapper{
+    width: 31%;
+    height: 267px;
+    
+}
+.wrapper img{
+    width: 100%;
+    border-left: 2px solid #EB6447;
+    border-right: 2px solid #EB6447;
+}
+
+footer{
+    text-align: center;
+}
+footer span{
+    color: #EB6447;
+}
+
+
+

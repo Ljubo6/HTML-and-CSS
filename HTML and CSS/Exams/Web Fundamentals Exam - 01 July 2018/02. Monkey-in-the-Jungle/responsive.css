@@ -1,0 +1,24 @@
+@media all and (max-width:480px){
+    body{
+        background: linear-gradient(90deg, rgba(0,0,0,.5) 50%, rgba(0,0,0,.6) 100%) ,url(images/bg.jpg) no-repeat fixed center;
+        background-size: cover;
+    }
+    .wrapper > header h2:after{
+        width: 50%;
+    }
+    .wrapper.style1 .content , .wrapper.style2 , .spotlight .inner{
+        padding: 1rem;
+    }
+    .gallery{
+        display: block;
+    }
+    .gallery > *{
+        width: 100%;
+    }
+    .spotlight > *{
+        width: 100%;
+    }
+    .spotlight .inner{
+        text-align: center;
+    }
+}
